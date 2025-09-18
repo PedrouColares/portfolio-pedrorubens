@@ -1,6 +1,8 @@
 import { FlickeringGrid } from "@/components/magicui/flickering-grid";
 import ProjectItem from '../components/ProjectItem'
 
+import contacerto from '../assets/contacerto.png'
+
 export default function Projects() {
     return (
         <div className="flex flex-col items-center mt-10">
@@ -28,7 +30,7 @@ export default function Projects() {
                             demo: "https://contacerto.vercel.app/"
                         }}
 
-                        image="src/assets/contacerto.png"
+                        image={contacerto}
 
                         description="Sistema desenvolvido durante meu curso de computação com um colega de sala. O objetivo era proporcionar um sistema gamificado para a aprendizagem de educação financeira."
 
