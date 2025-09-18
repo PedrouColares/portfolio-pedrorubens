@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://PedrouColares.github.io/portfolio-pedrorubens",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
